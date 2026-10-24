@@ -19,5 +19,5 @@ public class Turista extends persona {
         return "Turista{" +
                 "visa='" + visa + '\'' +
                 '}';
-    }
+     }
 }
