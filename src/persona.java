@@ -40,5 +40,5 @@ public abstract class persona {
                 ", correo='" + correo + '\'' +
                 ", documento='" + documento + '\'' +
                 '}';
-    }
+     }
 }
