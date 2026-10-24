@@ -16,8 +16,9 @@
 
         @Override
         public double calcularTarifa() {
-            return getTarifa() * getTarifabase();
+            return getTarifabase() + 20000;
         }
+
 
         @Override
         public String toString() {

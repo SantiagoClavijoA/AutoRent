@@ -16,7 +16,7 @@ public class Motocicleta extends Vehiculo {
 
     @Override
     public double calcularTarifa() {
-        return getTarifa() * getTarifabase();
+        return getTarifabase() * 0.90; // 10% de descuento
     }
 
     @Override

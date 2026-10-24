@@ -16,7 +16,7 @@ public class Camioneta extends Vehiculo {
 
     @Override
     public double calcularTarifa() {
-        return getTarifa() * getTarifabase();
+        return getTarifabase() + 50000;
     }
 
     @Override
