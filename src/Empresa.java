@@ -41,7 +41,7 @@ import java.util.List;
         public List<Alquiler> getListEmpresaAlquiler() {
             return listEmpresaAlquiler;
         }
-        
+
         public void agregarAlquiler(Alquiler alquiler) {
             listEmpresaAlquiler.add(alquiler);
         }
