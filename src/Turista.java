@@ -1,4 +1,4 @@
-public class Turista extends persona {
+public class Turista extends Persona {
     private String visa;
 
     public Turista(String nombre, String documento, String correo, String visa) {

@@ -3,7 +3,7 @@ public abstract class Persona {
     private String correo;
     private String documento;
 
-    public persona(String correo, String nombre, String documento) {
+    public Persona(String correo, String nombre, String documento) {
         this.correo = correo;
         this.nombre = nombre;
         this.documento = documento;

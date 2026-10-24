@@ -1,4 +1,4 @@
-public class Residente extends persona {
+public class Residente extends Persona {
     private String direccion;
 
     public Residente(String nombre, String documento, String correo, String direccion){
