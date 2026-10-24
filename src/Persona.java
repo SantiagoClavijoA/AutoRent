@@ -1,4 +1,4 @@
-public abstract class persona {
+public abstract class Persona {
     private String nombre;
     private String correo;
     private String documento;
