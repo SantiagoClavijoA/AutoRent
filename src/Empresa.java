@@ -41,6 +41,16 @@ import java.util.List;
         public List<Alquiler> getListEmpresaAlquiler() {
             return listEmpresaAlquiler;
         }
+        
+        public void agregarAlquiler(Alquiler alquiler) {
+            listEmpresaAlquiler.add(alquiler);
+        }
+
+        public void mostrarReporte() {
+            for (Alquiler alquiler : listEmpresaAlquiler) {
+                System.out.println(alquiler + " | Costo Total: $" + alquiler.calcularCostoTotal());
+            }
+        }
 
         @Override
         public String toString() {
